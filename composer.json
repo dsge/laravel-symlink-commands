@@ -1,0 +1,17 @@
+{
+    "name": "dsge/laravel-symlink-commands",
+    "authors": [
+        {
+            "name": "Gergely Sarosi",
+            "email": "gergely.sarosi@clapp.eu"
+        }
+    ],
+    "require": {
+        "laravel/framework": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "dsge\\": "src/dsge/"
+        }
+    }
+}
